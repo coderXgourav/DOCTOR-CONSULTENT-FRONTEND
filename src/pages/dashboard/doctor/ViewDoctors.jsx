@@ -1,6 +1,7 @@
 import Topbar from "../../../components/Topbar";
 import Sidebar from "../../../components/Sidebar";
 import Footer from "../../../components/Footer";
+import { Link } from "react-router-dom";
 
 const ViewDoctors = () => {
   return (
@@ -63,9 +64,9 @@ const ViewDoctors = () => {
                       </li>
                     </ul>
                   </div>
-                  <a href="profile.html" className="btn btn-primary">
+                  <Link to="/admin/profile/1" className="btn btn-primary">
                     View Profile
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
